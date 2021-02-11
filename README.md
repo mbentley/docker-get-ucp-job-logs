@@ -12,7 +12,7 @@ docker run --rm \
   -e JOB_LIMIT=10 \
   -e JOB_INFO_ONLY=false \
   -e DEBUG=false \
-  mbentley/get-ucp-job-logs
+  mirantis/get-ucp-job-logs
 ```
 
 The following environment variables are required: `UCP_URL`, `USERNAME`, `PASSWORD`, `JOB_TYPE`. Valid types: any cleanup-db ldap-sync
@@ -28,7 +28,7 @@ $ docker run --rm \
   -e JOB_TYPE=any \
   -e JOB_LIMIT=1 \
   -e JOB_INFO_ONLY=true \
-  mbentley/get-ucp-job-logs
+  mirantis/get-ucp-job-logs
 {
   "id": "b9f9acab-1dd8-4299-a53c-6b02ff8cb2b0",
   "workerID": "c0196a58-ff85-449d-baaf-0cfc5b144a43",
@@ -51,7 +51,7 @@ docker run --rm \
   -e JOB_INFO_ONLY=false \
   -e DEBUG=false \
   -e JOB_ID=eebf554d-e061-4d63-b910-5c4c5aa02083 \
-  mbentley/get-ucp-job-logs
+  mirantis/get-ucp-job-logs
 ====== BEGIN job logs from eebf554d-e061-4d63-b910-5c4c5aa02083 ======
 {
   "id": "eebf554d-e061-4d63-b910-5c4c5aa02083",
